@@ -1,2 +1,2 @@
-this is an ict project for grade 9 ICT students
+This is an ICT Project for Grade 9 ICT Students
 
