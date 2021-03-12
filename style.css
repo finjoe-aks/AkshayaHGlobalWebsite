@@ -1,2 +1,15 @@
 .container.header{background-color:#363945;
 }
+.container{padding: 15px;}
+
+.header{padding: 15px;
+margin: 20px;}
+
+.Nav{padding: 15px;
+margin: 20px;}
+
+.Main{padding: 15px;
+margin: 20px;}
+
+.Footer{padding: 15px;
+margin: 20px;}
