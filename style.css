@@ -1,9 +1,20 @@
 .container.header{background-color:#363945;
 }
-.container{padding: 15px;}
+.container{padding: 15px;
+box-shadow: 0 0 7px grey}
 
 .header{padding: 15px;
-margin: 20px;}
+margin: 20px;
+background-color: #0a0a29;
+border-radius: 30px;
+color:white;
+font-size: 150%;
+text-align: center;
+font-weight: lighter;
+font-family: galliard_btroman;
+letter-spacing: 1.5px;}
+
+.header img{border-radius: 50%; float: left;}
 
 /* Start of navigation css */
 .Nav{padding:15px;
@@ -12,7 +23,8 @@ color: white;
 text-align: center;
 height: min-content;
 font-size: 160%;
-background-color: black;}
+background-color: black;
+border-radius: 25px;}
 
 .Nav a{position: relative;
 display: inline-block;
@@ -35,8 +47,7 @@ transform: scaleX(0);}
 /* end of navigation css */
 
 .Main{padding: 15px;
-margin: 20px;
-position: relative;}
+margin: 20px;}
 
 .Footer{padding: 15px;
 margin: 20px;}
