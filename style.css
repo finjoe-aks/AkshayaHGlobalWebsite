@@ -5,24 +5,34 @@
 .header{padding: 15px;
 margin: 20px;}
 
-.Nav{padding: 15px;
+/* Start of navigation css */
+.Nav{padding:15px;
 margin: 20px;
-border-left: 1px solid pink;
+color: white;
 text-align: center;
+height: min-content;
 font-size: 160%;
-background-color: black;
-position: relative;}
-.Nav a:link{color: white; width: 10%;display: inline-block; text-decoration: none; padding:7px; }
-.Nav a:visited{color:white; display: inline-block; padding: 7px; }
-nav ul li a,
-nav ul li a:after,
-nav ul li a:before {
-  position: absolute;
-  left: 0px;
-  border: 0px;
-  transition: all .5s;
-}
+background-color: black;}
 
+.Nav a{position: relative;
+display: inline-block;
+text-decoration: none;
+color: white;
+width: 10%;}
+
+.Nav a::after{content:' ';
+ height: 3px;
+ background-color: white;
+ display: inline-block;
+ position: absolute;
+ bottom: 0px;
+ left: 0px;
+transition: ease 300ms;
+transform-origin: center;
+transform: scaleX(0);}
+
+.Nav a:hover::after{width: 100%; transform: scaleX(1); }
+/* end of navigation css */
 
 .Main{padding: 15px;
 margin: 20px;
