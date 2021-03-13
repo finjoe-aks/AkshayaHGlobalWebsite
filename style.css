@@ -1,7 +1,8 @@
+
+
 .container.header{background-color:#363945;
 }
-.container{padding: 15px;
-box-shadow: 0 0 7px grey}
+.container{padding: 15px;}
 
 .header{padding: 15px;
 margin: 20px;
@@ -46,8 +47,15 @@ transform: scaleX(0);}
 .Nav a:hover::after{width: 100%; transform: scaleX(1); }
 /* end of navigation css */
 
+/* css for main */
 .Main{padding: 15px;
-margin: 20px;}
+margin: 20px;
+background-color: white;
+border-radius: 30px;}
 
+.Main p{font-size: 125%;
+font-weight: normal;
+font-family: sans-serif;}
+/* end of css for main */
 .Footer{padding: 15px;
 margin: 20px;}
