@@ -38,9 +38,9 @@ width: 10%;}
  background-color: white;
  display: inline-block;
  position: absolute;
- bottom: 0px;
+ bottom: -10px;
  left: 0px;
-transition: ease 300ms;
+transition-duration: 400ms;
 transform-origin: center;
 transform: scaleX(0);}
 
