@@ -6,7 +6,8 @@
 
 .header{padding: 15px;
 margin: 20px;
-background-color: #0a0a29;
+height: inherit;
+background-color: #141414;
 border-radius: 0 0 30px 30px;
 color:white;
 font-size: 150%;
@@ -15,7 +16,14 @@ font-weight: lighter;
 font-family: galliard_btroman;
 letter-spacing: 1.5px;}
 
-.header img{border-radius: 50%; float: left;}
+.header img{border-radius: 50%;
+float: left;
+position: relative;
+top:0;
+bottom:0;
+width: 9%;
+display: block;
+text-align: center;}
 
 /* Start of navigation css */
 .Nav{padding:15px;
@@ -24,8 +32,8 @@ color: white;
 text-align: center;
 height: min-content;
 font-size: 160%;
-background-color: #0a0a29;
-border-radius: 25px;}
+background-color: #141414;
+border-radius: 40px;}
 
 .Nav a{position: relative;
 display: inline-block;
@@ -51,7 +59,8 @@ transform: scaleX(0);}
 .Main{padding: 15px;
 margin: 20px;
 background-color: white;
-border-radius: 30px;}
+border-radius: 30px;
+height: auto;}
 
 .Main p{font-size: 125%;
 font-weight: normal;
