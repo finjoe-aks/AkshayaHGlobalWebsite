@@ -6,7 +6,7 @@
 
 .header{padding: 15px;
 margin: 20px;
-height: inherit;
+height: auto;
 background-color: #141414;
 border-radius: 0 0 30px 30px;
 color:white;
@@ -28,7 +28,6 @@ text-align: center;}
 /* Start of navigation css */
 .Nav{padding:15px;
 margin: 20px;
-color: white;
 text-align: center;
 height: min-content;
 font-size: 160%;
@@ -67,4 +66,14 @@ font-weight: normal;
 font-family: sans-serif;}
 /* end of css for main */
 .Footer{padding: 15px;
-margin: 20px;}
+margin: 20px;
+height: auto;
+background-color: #141414;
+border-radius: 30px 30px 0 0;
+color:white;
+font-size: 150%;
+text-align: center;
+font-weight: lighter;
+font-family: galliard_btroman;
+letter-spacing: 1.5px;}
+}
