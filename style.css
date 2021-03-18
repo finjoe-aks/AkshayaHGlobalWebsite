@@ -1,48 +1,68 @@
 
+body{margin: 0;}
 
-.container.header{background-color:#363945;
-}
-.container{padding: 15px;}
-
-.header{padding: 15px;
-margin: 20px;
+.header{padding: 5%;
 height: auto;
 background-color: #141414;
-border-radius: 0 0 30px 30px;
 color:white;
 font-size: 150%;
 text-align: center;
 font-weight: lighter;
 font-family: galliard_btroman;
-letter-spacing: 1.5px;}
+letter-spacing: 1.5px;
+text-align: center;
+overflow: hidden;
 
-.header img{border-radius: 50%;
+background-image: url(images/SKY-BG.jpg);
+background-size: cover;
+background-repeat: no-repeat;}
+
+.header h2{border: 5px  solid #1a95db;
+padding: 2%;
 float: left;
-position: relative;
-top:0;
-bottom:0;
-width: 9%;
 display: block;
-text-align: center;}
+margin: 0 0 0 5%;
+width: 35%;
+border-radius: 20px;}
+
+.header p{text-align: left;
+padding: 2% ;
+float: left;
+display: block;
+margin: 0 0 0 5%;
+width: 50%;
+font-size: 125%;}
+
+.header ul{text-align: left;
+padding: 2%;
+display: block;
+margin: 0 0 0 5% ;
+float: left;}
+
+.header img{
+top:0;
+width: 20%;
+padding:4% 10% 0 0;
+display: block;
+float: right;}
 
 /* Start of navigation css */
 .Nav{padding:15px;
-margin: 20px;
 text-align: center;
 height: min-content;
 font-size: 160%;
 background-color: #141414;
-border-radius: 40px;}
+bottom: 0;}
 
 .Nav a{position: relative;
 display: inline-block;
 text-decoration: none;
-color: white;
+color: #abebff;
 width: 10%;}
 
 .Nav a::after{content:' ';
  height: 3px;
- background-color: white;
+ background-color: #ffffff;
  display: inline-block;
  position: absolute;
  bottom: -10px;
@@ -66,7 +86,6 @@ font-weight: normal;
 font-family: sans-serif;}
 /* end of css for main */
 .Footer{padding: 15px;
-margin: 20px;
 height: auto;
 background-color: #141414;
 border-radius: 30px 30px 0 0;
