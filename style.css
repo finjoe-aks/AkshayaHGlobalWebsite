@@ -53,7 +53,9 @@ text-align: center;
 height: min-content;
 font-size: 160%;
 background-color: #141414;
-bottom: 0;}
+position: sticky;
+width: auto;
+top: 0;}
 
 .Nav a{position: relative;
 display: inline-block;
@@ -64,12 +66,10 @@ width: 10%;}
 .Nav a::after{content:' ';
  height: 3px;
  background-color: #ffffff;
- display: inline-block;
  position: absolute;
  bottom: -10px;
  left: 0px;
-transition-duration: 400ms;
-transform-origin: center;
+transition: all 0.5s ease-in-out;
 transform: scaleX(0);}
 
 .Nav a:hover::after{width: 100%; transform: scaleX(1); }
