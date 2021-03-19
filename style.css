@@ -94,12 +94,13 @@ text-align:center;}
 
 .Main .tooltip .tooltip_text{border-radius:10%;
 width:70%;
+text-align:left;
 visibility:hidden;
+margin:2%;
 padding:3%;
-z-index:1;
 display:block;
 background-color:#222c3d;
-color:#6d97de;
+color:#abebff;;
 left:25%;}
 
 .Main .tooltip:hover .tooltip_text{visibility:visible;
