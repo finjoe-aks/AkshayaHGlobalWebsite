@@ -18,7 +18,7 @@ background-image: url(images/SKY-BG.jpg);
 background-size: cover;
 background-repeat: no-repeat;}
 
-.header h2{border: 5px  solid #1a95db;
+.header h2{border: 5px  solid #DEC400;
 padding: 2%;
 float: left;
 display: block;
@@ -43,7 +43,7 @@ float: left;}
 .header img{
 top:0;
 width: 20%;
-padding:4% 10% 0 0;
+padding:4% 10% 7% 5%;
 display: block;
 float: right;}
 
@@ -55,7 +55,9 @@ font-size: 160%;
 background-color: #141414;
 position: sticky;
 width: auto;
-top: 0;}
+top: 0;
+border-top:3px solid #DEC400;
+border-bottom:4px solid #DEC400;}
 
 .Nav a{position: relative;
 display: inline-block;
@@ -76,20 +78,44 @@ transform: scaleX(0);}
 /* end of navigation css */
 
 /* css for main */
-.Main{padding: 15px;
+.Main{padding: 5%;
 margin: 20px;
 background-color: white;
 border-radius: 30px;
 height: auto;
 overflow:hidden;}
 
+.Main #Mission{width: 43%;
+float:left;
+margin:0 2.5% 3% 0;
+padding: 2%;
+text-align: justify;}
+
+.Main #About{width: 43%;
+float:right;
+margin:0 0 3% 2.5%;
+padding: 2%;
+text-align: justify;}
+
+.Main #Help{width: 43%;
+float:left;
+margin:0 0 5% 0;
+padding: 2%;
+text-align: justify;}
+
+.Main #Join{width: 43%;
+float:right;
+margin:0 0 5% 0;
+padding: 2%;
+text-align: justify;}
+
 .Main img{border-radius:50%;}
 
-.Main .tooltip{display:inline-block;
+.Main .tooltip{display:inline;
 width:25%;
-height:20%;
+height:15%;
 float:left;
-margin-bottom:8%;
+margin-bottom:10%;
 text-align:center;}
 
 .Main .tooltip .tooltip_text{border-radius:10%;
@@ -110,12 +136,13 @@ position:relative;}
 text-align:center;
 font-family:sans-serif;}
 
-.Main p{font-size: 125%;
+.Main p{font-size: 150%;
 font-weight: normal;
-font-family: sans-serif;}
+font-family: sans-serif;
+margin: 0 3% 0 3%;}
 /* end of css for main */
 
-.Footer{padding: 15px;
+.Footer{padding: 3%;
 margin-top:2%;
 height: auto;
 background-color: #141414;
