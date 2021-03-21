@@ -57,7 +57,8 @@ position: sticky;
 width: auto;
 top: 0;
 border-top:3px solid #DEC400;
-border-bottom:4px solid #DEC400;}
+border-bottom:4px solid #DEC400;
+box-shadow: 5px 5px 10px;}
 
 .Nav a{position: relative;
 display: inline-block;
@@ -87,13 +88,13 @@ overflow:hidden;}
 
 .Main #Mission{width: 43%;
 float:left;
-margin:0 2.5% 3% 0;
+margin:0 2.5% 2% 0;
 padding: 2%;
 text-align: justify;}
 
 .Main #About{width: 43%;
 float:right;
-margin:0 0 3% 2.5%;
+margin:0 0 2% 2.5%;
 padding: 2%;
 text-align: justify;}
 
@@ -127,14 +128,16 @@ padding:3%;
 display:block;
 background-color:#222c3d;
 color:#abebff;;
-left:25%;}
+left:25%;
+box-shadow: black 5px 5px 10px;}
 
 .Main .tooltip:hover .tooltip_text{visibility:visible;
 position:relative;}
 
 .Main h1{font-size:300%;
 text-align:center;
-font-family:sans-serif;}
+font-family:sans-serif;
+color: #0e0e5e;}
 
 .Main p{font-size: 150%;
 font-weight: normal;
