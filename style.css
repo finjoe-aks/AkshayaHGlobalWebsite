@@ -18,19 +18,21 @@ background-image: url(images/SKY-BG.jpg);
 background-size: cover;
 background-repeat: no-repeat;}
 
-.header h2{border: 5px  solid #DEC400;
-padding: 2%;
+.header h2{padding: 2%;
 float: left;
 display: block;
-margin: 0 0 0 5%;
+margin: 1.5em;
+color: #57ebff;
+z-index: 3;
 width: 35%;
-border-radius: 20px;}
+background: linear-gradient(to top left, rgba(255, 255, 255, 0.2), rgba(255, 195, 195, 0.7));
+backdrop-filter: blur(1px);}
 
 .header p{text-align: left;
 padding: 2% ;
 float: left;
 display: block;
-margin: 0 0 0 5%;
+margin: 1em;
 width: 50%;
 font-size: 125%;}
 
@@ -43,7 +45,7 @@ float: left;}
 .header img{
 top:0;
 width: 20%;
-padding:4% 10% 7% 5%;
+padding:4em;
 display: block;
 float: right;}
 
