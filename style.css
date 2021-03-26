@@ -25,8 +25,9 @@ margin: 1.5em;
 color: #57ebff;
 z-index: 3;
 width: 35%;
-background: linear-gradient(to top left, rgba(255, 255, 255, 0.2), rgba(255, 195, 195, 0.7));
-backdrop-filter: blur(1px);}
+background: linear-gradient(to top left, rgba(255, 255, 255, 0.2), rgba(52, 88, 121, 0.4), rgba(139, 201, 255, 0.5));
+backdrop-filter: blur(1.5px);
+border: 2px solid rgba(255, 255, 255, 0.2);}
 
 .header p{text-align: left;
 padding: 2% ;
