@@ -82,39 +82,33 @@ transform: scaleX(0);}
 /* end of navigation css */
 
 /* css for main */
-.Main{padding: 5%;
+.Main{padding: 7em;
 margin: 20px;
 background-color: white;
 border-radius: 30px;
 height: auto;
 overflow:hidden;}
 
-.Main #Mission{width: 43%;
-float:left;
-margin:0 2.5% 2% 0;
-padding: 2%;
-text-align: justify;}
+/* Css for content in about page */
+.Main #Mission,#About,#Help,#Join{width: 100%;
+height: auto;
+margin:3em;
+overflow: hidden;}
 
-.Main #About{width: 43%;
-float:right;
-margin:0 0 2% 2.5%;
-padding: 2%;
-text-align: justify;}
 
-.Main #Help{width: 43%;
-float:left;
-margin:0 0 3em 0;
-padding: 2%;
-text-align: justify;}
+.Main #Mission img{width:50%;
+float: right;}
+.Main #Mission p{width:40%;
+float: left;}
 
-.Main #Join{width: 43%;
-float:left;
-margin:0 0 3em 3em;
-padding: 2%;
-text-align: justify;}
+.Main #About img{width:40%;
+float: left;}
+.Main #About p{width:50%;
+float: right;}
+    
 
-.Main img{border-radius:50%;}
 
+/* Css for tooltips in the about page */
 .Main .tooltip{display:inline;
 width:25%;
 height:15%;
@@ -137,16 +131,26 @@ box-shadow: black 5px 5px 10px;}
 .Main .tooltip:hover .tooltip_text{visibility:visible;
 position:relative;}
 
+/* General css for main */
 .Main h1{font-size:300%;
 text-align:center;
 font-family:sans-serif;
 color: #0e0e5e;
 display: block;}
 
+.Main h2{font-size: 250%;
+color: #0e0e5e;
+font-family:sans-serif;
+text-align: left;}
+
 .Main p{font-size: 150%;
 font-weight: normal;
 font-family: sans-serif;
-margin: 0 3% 0 3%;}
+text-align: justify;}
+
+.main hr{width: 80%;
+background-color: #0e0e5e;
+height: 2px;}
 /* end of css for main */
 
 .Footer{padding: 3%;
