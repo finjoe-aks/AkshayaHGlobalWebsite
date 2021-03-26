@@ -1,70 +1,161 @@
 
+body{margin: 0;
+background-color: #f5f5f5}
 
-.container.header{background-color:#363945;
-}
-.container{padding: 15px;}
-
-.header{padding: 15px;
-margin: 20px;
-height: inherit;
+.header{padding: 5%;
+height: auto;
 background-color: #141414;
-border-radius: 0 0 30px 30px;
 color:white;
 font-size: 150%;
 text-align: center;
 font-weight: lighter;
 font-family: galliard_btroman;
-letter-spacing: 1.5px;}
+letter-spacing: 1.5px;
+text-align: center;
+overflow: hidden;
 
-.header img{border-radius: 50%;
+background-image: url(images/SKY-BG.jpg);
+background-size: cover;
+background-repeat: no-repeat;}
+
+.header h2{padding: 2%;
 float: left;
-position: relative;
-top:0;
-bottom:0;
-width: 9%;
 display: block;
-text-align: center;}
+margin: 1.5em;
+color: #57ebff;
+z-index: 3;
+width: 35%;
+background: linear-gradient(to top left, rgba(255, 255, 255, 0.2), rgba(52, 88, 121, 0.4), rgba(139, 201, 255, 0.5));
+backdrop-filter: blur(1.5px);
+border: 2px solid rgba(255, 255, 255, 0.2);}
+
+.header p{text-align: left;
+padding: 2% ;
+float: left;
+display: block;
+margin: 1em;
+width: 50%;
+font-size: 125%;}
+
+.header ul{text-align: left;
+padding: 2%;
+display: block;
+margin: 0 0 0 5% ;
+float: left;}
+
+.header img{
+top:0;
+width: 20%;
+padding:4em;
+display: block;
+float: right;}
 
 /* Start of navigation css */
 .Nav{padding:15px;
-margin: 20px;
-color: white;
 text-align: center;
 height: min-content;
 font-size: 160%;
 background-color: #141414;
-border-radius: 40px;}
+position: sticky;
+width: auto;
+top: 0;
+border-top:3px solid #DEC400;
+border-bottom:4px solid #DEC400;
+box-shadow: 5px 5px 10px;}
 
 .Nav a{position: relative;
 display: inline-block;
 text-decoration: none;
-color: white;
+color: #abebff;
 width: 10%;}
 
 .Nav a::after{content:' ';
  height: 3px;
- background-color: white;
- display: inline-block;
+ background-color: #ffffff;
  position: absolute;
  bottom: -10px;
  left: 0px;
-transition-duration: 400ms;
-transform-origin: center;
+transition: all 0.5s ease-in-out;
 transform: scaleX(0);}
 
 .Nav a:hover::after{width: 100%; transform: scaleX(1); }
 /* end of navigation css */
 
 /* css for main */
-.Main{padding: 15px;
+.Main{padding: 5%;
 margin: 20px;
 background-color: white;
 border-radius: 30px;
-height: auto;}
+height: auto;
+overflow:hidden;}
 
-.Main p{font-size: 125%;
+.Main #Mission{width: 43%;
+float:left;
+margin:0 2.5% 2% 0;
+padding: 2%;
+text-align: justify;}
+
+.Main #About{width: 43%;
+float:right;
+margin:0 0 2% 2.5%;
+padding: 2%;
+text-align: justify;}
+
+.Main #Help{width: 43%;
+float:left;
+margin:0 0 3em 0;
+padding: 2%;
+text-align: justify;}
+
+.Main #Join{width: 43%;
+float:left;
+margin:0 0 3em 3em;
+padding: 2%;
+text-align: justify;}
+
+.Main img{border-radius:50%;}
+
+.Main .tooltip{display:inline;
+width:25%;
+height:15%;
+float:left;
+margin-bottom:10%;
+text-align:center;}
+
+.Main .tooltip .tooltip_text{border-radius:10%;
+width:80%;
+text-align:left;
+visibility:hidden;
+margin:2%;
+padding:3%;
+display:block;
+background-color:#222c3d;
+color:#abebff;
+left:25%;
+box-shadow: black 5px 5px 10px;}
+
+.Main .tooltip:hover .tooltip_text{visibility:visible;
+position:relative;}
+
+.Main h1{font-size:300%;
+text-align:center;
+font-family:sans-serif;
+color: #0e0e5e;
+display: block;}
+
+.Main p{font-size: 150%;
 font-weight: normal;
-font-family: sans-serif;}
+font-family: sans-serif;
+margin: 0 3% 0 3%;}
 /* end of css for main */
-.Footer{padding: 15px;
-margin: 20px;}
+
+.Footer{padding: 3%;
+margin-top:2%;
+height: auto;
+background-color: #141414;
+color:white;
+font-size: 150%;
+text-align: center;
+font-weight: lighter;
+font-family: galliard_btroman;
+letter-spacing: 1.5px;}
