@@ -75,7 +75,8 @@ width: 10%;}
  position: absolute;
  bottom: -10px;
  left: 0px;
-transition: all 0.5s ease-in-out;
+ transform-origin: center;
+transition: 0.5s ;
 transform: scaleX(0);}
 
 .Nav a:hover::after{width: 100%; transform: scaleX(1); }
@@ -92,7 +93,7 @@ overflow:hidden;}
 /* Css for content in about page */
 .Main #Mission,#About,#Help,#Join{width: 100%;
 height: auto;
-margin:3em;
+padding:2em;
 overflow: hidden;}
 
 
@@ -105,6 +106,22 @@ float: left;}
 float: left;}
 .Main #About p{width:50%;
 float: right;}
+.Main #About h2{width:50%;
+float: right;}
+
+.Main #help img{width:50%;
+float: right;}
+.Main #help p{width:40%;
+float: left;}
+
+.Main #Join img{width:45%;
+float: left;
+margin-top: 3em;}
+.Main #Join p{width:50%;
+float: right;}
+.Main #Join h2{width:50%;
+float: right;}
+    
     
 
 
