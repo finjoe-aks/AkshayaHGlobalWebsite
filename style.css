@@ -2,6 +2,10 @@
 body{margin: 0;
 background-color: #f5f5f5}
 
+.container{max-width: 1500px;
+margin: auto;
+min-width: 500px;}
+
 .header{padding: 5%;
 height: auto;
 background-color: #141414;
@@ -23,7 +27,6 @@ float: left;
 display: block;
 margin: 1.5em;
 color: #57ebff;
-z-index: 3;
 width: 35%;
 background: linear-gradient(to top left, rgba(255, 255, 255, 0.2), rgba(52, 88, 121, 0.4), rgba(139, 201, 255, 0.5));
 backdrop-filter: blur(1.5px);
@@ -59,15 +62,17 @@ background-color: #141414;
 position: sticky;
 width: auto;
 top: 0;
-border-top:3px solid #DEC400;
-border-bottom:4px solid #DEC400;
-box-shadow: 5px 5px 10px;}
+border-top:3px solid #4b4bb1;
+border-bottom:4px solid #4b4bb1;
+box-shadow: 5px 3px 10px;
+z-index: 2;}
 
 .Nav a{position: relative;
 display: inline-block;
 text-decoration: none;
 color: #abebff;
-width: 10%;}
+width: 10%;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
 
 .Nav a::after{content:' ';
  height: 3px;
@@ -76,8 +81,8 @@ width: 10%;}
  bottom: -10px;
  left: 0px;
  transform-origin: center;
-transition: 0.5s ;
-transform: scaleX(0);}
+transform: scaleX(0);
+transition: transform 0.5s ;}
 
 .Nav a:hover::after{width: 100%; transform: scaleX(1); }
 /* end of navigation css */
@@ -98,7 +103,8 @@ overflow: hidden;}
 
 
 .Main #Mission img{width:50%;
-float: right;}
+float: right;
+filter: contrast(125%);}
 .Main #Mission p{width:40%;
 float: left;}
 
@@ -189,3 +195,6 @@ text-align: center;
 font-weight: lighter;
 font-family: galliard_btroman;
 letter-spacing: 1.5px;}
+
+
+/* This CSS stylesheet is under copyright of Rithish. Unpublished © 28/3/21 Rithish. */
