@@ -23,36 +23,37 @@ background-size: cover;
 background-repeat: no-repeat;}
 
 .header h2{padding: 2%;
-float: left;
+float: right;
 display: block;
 margin: 1.5em;
 color: #57ebff;
-width: 35%;
+width: 70%;
 background: linear-gradient(to top left, rgba(255, 255, 255, 0.2), rgba(52, 88, 121, 0.4), rgba(139, 201, 255, 0.5));
 backdrop-filter: blur(1.5px);
+border-radius: 50px;
 border: 2px solid rgba(255, 255, 255, 0.2);}
 
 .header p{text-align: left;
 padding: 2% ;
-float: left;
+float: right;
 display: block;
 margin: 1em;
-width: 50%;
+width: 40%;
 font-size: 125%;}
 
-.header ul{text-align: left;
-padding: 2%;
-display: block;
-margin: 0 0 0 5% ;
-float: left;}
+.header ul{text-align: right;
+float: right;
+list-style-type: none;
+}
 
+.header ul li{display: inline-block;}
 .header img{
 top:0;
-width: 20%;
-padding:4em;
+width: 8%;
+padding: 0.5em;
 display: block;
-border-radius: 200px;
-float: right;}
+border-radius: 165px 165px 50px 50px;
+float: inline-end;}
 
 /* Start of navigation css */
 .Nav{padding:15px;
