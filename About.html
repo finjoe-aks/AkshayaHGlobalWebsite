@@ -2,6 +2,63 @@
  <head>
    <title>Akshayah Global ICT</title>
    <link rel="stylesheet" href="style.css">
+   <style>
+     /* Css for content in about page */
+.Main #Mission,#About,#Help,#Join{width: 100%;
+height: auto;
+padding:2em;
+overflow: hidden;}
+
+.Main #Mission img{width:48%;
+float: right;
+filter: contrast(110%);}
+.Main #Mission p{width:45%;
+float: left;}
+
+.Main #About img{width:45%;
+float: left;}
+.Main #About p{width:50%;
+float: right;}
+.Main #About h2{width:50%;
+float: right;}
+
+.Main #help img{width:50%;
+float: right;}
+.Main #help p{width:45%;
+float: left;}
+
+.Main #Join img{width:45%;
+float: left;
+margin-top: 3em;
+filter: contrast(90%);}
+.Main #Join p{width:50%;
+float: right;}
+.Main #Join h2{width:50%;
+float: right;}
+    
+/* Css for tooltips in the about page */
+.Main .tooltip{display:inline;
+width:20%;
+height:15%;
+float:left;
+margin-bottom:13em;
+text-align:center;}
+
+.Main .tooltip .tooltip_text{border-radius:15px;
+width:100%;
+text-align:justify;
+visibility:hidden;
+margin:1em;
+padding:1em;
+display:block;
+background-color:#141414;
+color:#abebff;
+left:25%;
+box-shadow: black 5px 3px 5px;}
+
+.Main .tooltip:hover .tooltip_text{visibility:visible;
+position:relative;}
+   </style>
  </head>
  <body>
    <div class="container">
@@ -69,8 +126,12 @@
         <hr>
        <h1>OUR TEAM</h1>
        <div class="tooltip">
+        <img src="images/FinnySir-avatar.png" alt="something went wrong! try reloading this page">
+        <span class="tooltip_text"><span>&#8593;</span><h4>Finny Sir</h4><p style="font-size:135%;">Manager and CEO of the project. Developed the Projects and Contact menus of the project. </p></span>
+      </div>
+       <div class="tooltip">
          <img src="images/Rithish-avatar.png" alt="something went wrong! try reloading this page">
-         <span class="tooltip_text"><span>&#8593;</span><h4>Rithish</h4><p style="font-size:135%;">Experienced web-designer and coder. Made the Home, CSS, About and Contact menus. Designed the whole website.</p></span>
+         <span class="tooltip_text"><span>&#8593;</span><h4>Rithish</h4><p style="font-size:135%;">The lead and designer of the project. Made the Home, CSS and About menus and Designed the whole website.</p></span>
        </div>
        <div class="tooltip">
          <img src="images/Kavin-avatar.png" alt="something went wrong! try reloading this page">
