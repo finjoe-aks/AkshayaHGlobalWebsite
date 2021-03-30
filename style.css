@@ -15,7 +15,6 @@ text-align: center;
 font-weight: lighter;
 font-family: galliard_btroman;
 letter-spacing: 1.5px;
-text-align: center;
 overflow: hidden;
 
 background-image: url(images/SKY-BG.jpg);
@@ -34,22 +33,18 @@ backdrop-filter: blur(1.5px);
 border-radius: 50px;
 border: 2px solid rgba(255, 255, 255, 0.2);}
 
-.header p{text-align: left;
-padding: 2% ;
-float: right;
+.header p{padding: 2% ;
+margin: auto;
 display: block;
-margin: 1em;
-width: 40%;
-font-size: 125%;}
+width: 50%;
+font-size: 120%;}
 
-.header ul{text-align: right;
-float: right;
-list-style-type: none;
-}
+.header ul{list-style-type: none;}
 
 .header ul li{display: inline-block;
 padding: 5px 20px;
 border:2px solid #fff ;
+margin: 10px;
 }
 .header img{
 top:0;
@@ -78,13 +73,17 @@ display: inline-block;
 text-decoration: none;
 color: #abebff;
 width: 10%;
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+border-right: 2px solid white;}
 
-.Nav a::after{content:' ';
- height: 3px;
+.Nav a:last-child{content: " ";
+border:none;}
+
+.Nav a::after{content: ' ';
+ height: 4px;
  background-color: #ffffff;
  position: absolute;
- bottom: -10px;
+ bottom: -0.78em;
  left: 0px;
  transform-origin: center;
 transform: scaleX(0);
