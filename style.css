@@ -122,6 +122,15 @@ text-align: left;}
 font-family:sans-serif;
 text-align: left;}
 
+.Main ul{
+    padding: 5em 7em;
+    margin: 20px;
+    background-color: white;
+    border-radius: 30px;
+    height: inherit;
+    overflow:hidden; 
+}
+
 .Main p{font-size: 150%;
 font-weight: normal;
 font-family: sans-serif;
