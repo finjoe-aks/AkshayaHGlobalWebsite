@@ -102,6 +102,10 @@ height: inherit;
 overflow:hidden;}
 
 /* General css for main */
+.main hr{width: 80%;
+    background-color: #0e0e5e;
+    height: 2px;}
+    
 .Main h1{font-size:300%;
 text-align:center;
 font-family:sans-serif;
@@ -122,24 +126,21 @@ text-align: left;}
 font-family:sans-serif;
 text-align: left;}
 
-.Main ul{
-    padding: 5em 7em;
-    margin: 20px;
-    background-color: white;
-    border-radius: 30px;
-    height: inherit;
-    overflow:hidden; 
-}
+.Main p{
+    font-size: 150%;
+    font-weight: normal;
+    font-family: sans-serif;
+    text-align: justify;
+    }
 
-.Main p{font-size: 150%;
+
+.Main ul{
+    font-size: 150%;
 font-weight: normal;
 font-family: sans-serif;
-text-align: justify;}
+text-align: justify;
 
 
-.main hr{width: 80%;
-background-color: #0e0e5e;
-height: 2px;}
 /* end of css for main */
 
 .Footer{padding: 3%;
