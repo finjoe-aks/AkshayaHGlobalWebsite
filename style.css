@@ -88,9 +88,9 @@ border:none;}
  left: 0px;
  transform-origin: center;
 transform: scaleX(0);
-transition: transform 0.5s ;}
+transition: all 500ms;}
 
-.Nav a:hover::after{width: 100%; transform: scaleX(1); }
+.Nav a:hover::after{width: 100%; transform: scaleX(1);}
 /* end of navigation css */
 
 /* css for main */
@@ -100,6 +100,28 @@ background-color: white;
 border-radius: 30px;
 height: inherit;
 overflow:hidden;}
+
+.Main .tooltip{display:inline;
+width:20%;
+height:15%;
+float:left;
+margin-bottom:10em;
+text-align:center;}
+
+.Main .tooltip .tooltip_text{border-radius:15px;
+width:13.6em;
+text-align:justify;
+visibility:hidden;
+margin:1em;
+padding:1em;
+display:block;
+background-color:#141414;
+color:#abebff;
+left:25%;
+box-shadow: black 5px 3px 5px;}
+
+.Main .tooltip:hover .tooltip_text{visibility:visible;
+position:relative;}
 
 /* General css for main */
 .main hr{width: 80%;
@@ -140,6 +162,24 @@ font-weight: normal;
 font-family: sans-serif;
 text-align: justify;
 
+.Main dl{width: 75%;
+margin:auto;
+padding: 2em;
+border:5px solid #0e0e5e;
+border-radius: 30px;}
+
+.Main dt{font-size: 160%;
+font-family: sans-serif;
+text-align: justify;
+font-weight: bold;
+margin-bottom: 10px;
+color:#001486;}
+
+.Main dd{font-size: 150%;
+font-weight: normal;
+font-family: sans-serif;
+text-align: justify;
+margin-bottom: 2em;}
 
 /* end of css for main */
 

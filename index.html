@@ -4,10 +4,15 @@
    <link rel="stylesheet" href="style.css">
    <style>
      .Main div img{width: 50%;}
-     .Main div{ width: 20%; text-align: center; margin:2.5em;float: left;
-     box-shadow: 0 5px 8px; padding: 2em; margin-bottom: 7em;}
-     .main div p{text-align: center; opacity: 0.8;}
+     .Main div{ width: 14vw; text-align: center; display:inline-block; margin: 10% 4.7%; vertical-align:middle;
+     box-shadow: 0 3px 5px black; padding: 2em; max-height: 400px; transition: all 0.3s ease-in;}
+     .Main div:hover{transform: scale(1.05); outline: 3px solid #4b4bb1;}
+     .main div p{text-align: center; opacity: 0.8; font-size: 20px; color: black;}
      .main div h3{text-align: center;}
+     .Main #Office{width:85%; left:0; outline:none; box-shadow: 0 0 0; transition: none; text-align: left;
+      margin:0; transform: none; font-size: 100%;}
+     .Main #Office img{ transition: 0.3s ease-in;}
+     .Main #Office img:hover{transform: scale(1.06);}
    </style>
  </head>
  <body>
@@ -20,7 +25,7 @@
         <li>Sherlock Holmes</li>
         <li>Lionel Messi</li>
         <li>Pizza</li>
-        <li>Shamaathmikaa</li>
+        <li>Shamiee</li>
        </ul>
      </div>
      <div class="Nav">
@@ -38,28 +43,33 @@
        <br>
          <h4>All courses with simple texts and interactive images for easy undersanding.</h4>
          <h4>Courses designed by trained and experienced coding professionals.</h4>
+         <a href="HTML.html">
        <div>
-         <a href="HTML.html"><img src="images\HTML-LOGO.png" alt="something went wrong!"></a>
+         <img src="images\HTML-LOGO.png" alt="something went wrong!">
          <h3>Learn HTML</h3>
          <p>The most easy to learn programming language! Learn HTML to enter the world of coding.</p>
-       </div>
+       </div></a>
+       <a href="CSS.html">
        <div>
-         <a href="CSS.html"><img src="images\CSS-LOGO.png" alt="something went wrong!"></a>
+         <img src="images\CSS-LOGO.png" alt="something went wrong!">
          <h3>Learn CSS</h3>
          <p>Design all sorts of webpages with colors, fonts, sizes, etc. As easy as HTML is!</p>
-       </div>
+       </div></a>
+       <a href="DBMS.html">
        <div>
-         <a href="DBMS.html"><img src="images\DBMS-LOGO.png" alt="something went wrong!"></a>
+         <img src="images\DBMS-LOGO.png" alt="something went wrong!">
          <h3>Learn DBMS</h3>
          <p>Create many tables and one of the best languages you can brag about to your friends!</p>
-       </div>
+       </div></a>
        <br>
        <hr>
        <br>
-       <img src="images\Office.jpg" alt="something went wrong!" style="width: 50%; float: right;">
-       <h3>Not really into coding ?</h3>
-       <h3>Check out our Office menu.</h3>
-       <p>A chance to learn about Word documents, powerpoints, excel shees and many more!</p>
+       <div id="Office">
+         <a href="Office.html"><img src="images\Office.jpg" alt="something went wrong!" style="width: 50%; float: right;"></a>
+         <h3>Not really into coding ?</h3>
+         <h3>Check out our Office menu.</h3>
+         <p>A chance to learn about Word documents, powerpoints, excel shees and many more!</p>
+      </div>
      </div>
      <div class="Footer">
        <h5>&copy; Grade_9_ICT students</h5>
