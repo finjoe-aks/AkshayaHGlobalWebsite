@@ -99,7 +99,8 @@ margin: 20px;
 background-color: white;
 border-radius: 30px;
 height: inherit;
-overflow:hidden;}
+overflow:hidden;
+line-height:30px;}
 
 .Main .tooltip{display:inline;
 width:20%;
@@ -124,27 +125,28 @@ box-shadow: black 5px 3px 5px;}
 position:relative;}
 
 /* General css for main */
-.Main h1{font-size:300%;
+.Main h1{font-size:290%;
 text-align:center;
 font-family:sans-serif;
 color: #0e0e5e;
 display: block;}
 
-.Main h2{font-size: 250%;
+.Main h2{font-size: 240%;
 color: #0e0e5e;
 font-family:sans-serif;
-text-align: left;}
+text-align: left;
+line-height: 50px;}
 
-.Main h3{font-size: 200%;
+.Main h3{font-size: 190%;
 color: #0a0a86;
 font-family:sans-serif;
 text-align: left;}
 
-.Main h4{font-size: 150%;
+.Main h4{font-size: 140%;
 font-family:sans-serif;
 text-align: left;}
 
-.Main p{font-size: 150%;
+.Main p{font-size: 140%;
 font-weight: normal;
 font-family: sans-serif;
 text-align: justify;}
@@ -155,14 +157,14 @@ padding: 2em;
 border:5px solid #0e0e5e;
 border-radius: 30px;}
 
-.Main dt{font-size: 160%;
+.Main dt{font-size: 150%;
 font-family: sans-serif;
 text-align: justify;
 font-weight: bold;
 margin-bottom: 10px;
 color:#001486;}
 
-.Main dd{font-size: 150%;
+.Main dd{font-size: 130%;
 font-weight: normal;
 font-family: sans-serif;
 text-align: justify;
