@@ -88,7 +88,7 @@ border:none;}
  left: 0px;
  transform-origin: center;
 transform: scaleX(0);
-transition: transform 0.5s ;}
+transition: transform 0.4s ease-in;}
 
 .Nav a:hover::after{width: 100%; transform: scaleX(1); }
 /* end of navigation css */
