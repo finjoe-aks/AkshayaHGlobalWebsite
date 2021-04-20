@@ -2,18 +2,55 @@
  <head>
    <title>Akshayah Global ICT</title>
    <link rel="stylesheet" href="style.css">
+   <style>
+     /* Css for content in about page */
+.Main #Mission,#About,#Help,#Join{width: 100%;
+height: auto;
+padding:2em;
+overflow: hidden;}
+
+.Main #Mission img{width:48%;
+float: right;
+filter: contrast(110%);
+margin-top: -5em;}
+.Main #Mission p{width:45%;
+float: left;}
+
+.Main #About img{width:45%;
+float: left;
+margin-top: 3em;}
+.Main #About p{width:50%;
+float: right;}
+.Main #About h2{width:50%;
+float: right;}
+
+.Main #help img{width:50%;
+float: right;
+margin-top: -5em;}
+.Main #help p{width:45%;
+float: left;}
+
+.Main #Join img{width:45%;
+float: left;
+margin-top: 3em;
+filter: contrast(90%);}
+.Main #Join p{width:50%;
+float: right;}
+.Main #Join h2{width:50%;
+float: right;}
+   </style>
  </head>
  <body>
    <div class="container">
      <div class="Header">
        <img src="images\AGS.jpg" alt="something went wrong!">
        <h2>Akshayah Global School ICT Group Project</h2>
-       <p style="font-size: 125%;">A project created by Grade 9 students:</p>
+       <p>A group project created by Grade 9 students:</p>
        <ul>
-         <li>Rithish</li>
-         <li>Kavin</li>
-         <li>Sahana</li>
-         <li>Shamaathmikaa</li>
+         <li>Sherlock Holmes</li>
+         <li>Football Fan</li>
+         <li>Pizza</li>
+         <li>Shamiee</li>
        </ul>
      </div>
      <div class="Nav">
@@ -21,65 +58,83 @@
        <a href="HTML.html">HTML</a>
        <a href="CSS.html">CSS</a>
        <a href="DBMS.html">DBMS</a>
-       <a href="#">Office</a>
-       <a href="#">Projects</a>
-       <a href="About.html">About</a>
+       <a href="Office.html">Office</a>
+       <a href="Projects.html">Projects</a>
+       <a href="About.html" style="color:white">About</a>
        <a href="Contact.html">Contact</a>
      </div>
      <div class="Main">
         <div id="Mission">
-          <h1>Mission</h1>
-          <p style="font-size: 180%;">Our aim is to create a guide in the form of a website, so we do not forget our knowledge in coding and
+          <h2>Mission</h2>
+          <img src="images\Mission.jpg" alt="Something went wrong !">
+          <p>Our aim is to create a guide in the form of a website, so we do not forget our knowledge in coding and
           also learn new things. We have written almost all the things we know and learnt about coding. Whenever we forget some tags or
           properties, we look through our own pages or the pages created by our friends.</p>
         </div>
+        <br>
+        <hr>
         <div id="About">
-         <h1>Who we are</h1>
-          <p style="font-size: 180%;">We are a group of 4 students studying in ninth grade. Each one of us is highly trained
+         <h2>Who we are</h2>
+         <img src="images\4people.jpg" alt="Something went wrong !">
+          <p>We are a group of 4 students studying in ninth grade. Each one of us is highly trained
             and experienced in programming. This website is the result of all our new and
             past experiences in html and css. Our website contains only CSS and HTML and no other front-end or back-end programming languages.
           </p>
         </div>
+        <br>
+        <hr>
         <div id="help">
-          <h1>Will this help you?</h1>
-          <p style="font-size: 180%;">We know that our website will help you in some way related to HTML, CSS and DBMS. If you ever forget some elements
+          <h2>Will this help you?</h2>
+          <img src="images\Help.jpg" alt="Something went wrong !">
+          <p>We know that our website will help you in some way related to HTML, CSS and DBMS. If you ever forget some elements
             or units, you can check out our HTML, CSS and other menus. If you don't find the answer you're looking for, then leave a feedback and we'll look out for solutions.
             We keep updating our website, so a few facts that aren't available today might be available in the future.
           </p>
         </div>
+        <br>
+        <hr>
         <div id="Join">
-          <h1>Join us</h1>
-          <p style="font-size: 180%;">
+          <img src="images\coding.jpg" alt="Something went wrong !">
+          <h2>Join us</h2>
+          <p>
             We are available 24/7. You can reach out to us wherever you are and whenever you want. If you or anyone you know is interested in joining our team,
              we are waiting for you. There are no complicated interviews to trouble you. But just be sure to not overuse stack overflow for answers.
              Basic knowledge in HTML and CSS is enough to join our team. It's really great if you also know DBMS and Javascript.
           </p>
         </div>
-       <h1 style="margin: 1em 10%;">OUR TEAM</h1>
+        <br>
+        <hr>
+       <h1>OUR TEAM</h1>
+       <div class="tooltip">
+        <img src="images/FinnySir-avatar.png" alt="something went wrong! try reloading this page">
+        <span class="tooltip_text"><span>&#8593;</span><h4>Isaac Newton</h4><p style="font-size:135%;">Manager and CEO of the project. Developed the Projects and Contact menus of the project. </p></span>
+      </div>
        <div class="tooltip">
          <img src="images/Rithish-avatar.png" alt="something went wrong! try reloading this page">
-         <span class="tooltip_text"><span>&#8593;</span><h2>Rithish</h2><p style="font-size: 180%;">Experienced web-designer and coder. Made the Home, CSS, About, Contact menus. Designed the whole website.</p></span>
+         <span class="tooltip_text"><span>&#8593;</span><h4>Sherlock Holmes</h4><p style="font-size:135%;">The lead and designer of the project. Made the Home, CSS and About menus and Designed the whole website.</p></span>
        </div>
        <div class="tooltip">
          <img src="images/Kavin-avatar.png" alt="something went wrong! try reloading this page">
-         <span class="tooltip_text"><span>&#8593;</span><h2>Kavin Krishna</h2><p style="font-size: 180%;">Professional coder and designer. Made the DBMS menu of this project.</p></span>
+         <span class="tooltip_text"><span>&#8593;</span><h4>Football Fan</h4><p>Professional coder and designer. Made the DBMS menu of this project.</p></span>
        </div>
        <div class="tooltip">
          <img src="images/Sahana-avatar.png" alt="something went wrong! try reloading this page">
-         <span class="tooltip_text"><span>&#8593;</span><h2>Sahana</h2><P style="font-size: 180%;">Master html coder. Developed the HTML menu of this project.</p></span>
+         <span class="tooltip_text"><span>&#8593;</span><h4>Pizza</h4><p style="font-size:140%;">Master html coder. Developed the HTML menu of this project.</p></span>
        </div>
        <div class="tooltip">
-         <img src="images/Shamaathmikaa-avatar.png" alt="something went wrong! try reloading this page">
-         <span class="tooltip_text"><span>&#8593;</span><h2>Shamaathmikaa</h2><P style="font-size: 180%;">Beginner html and css designer. Developed the Projects and Office menus of the website.</p></span>
-       </div>
-       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis augue ut est placerat faucibus. Donec a dignissim tellus, vitae elementum magna. Vivamus at dictum nunc. Nullam aliquam diam in consequat elementum. Ut tincidunt, tellus nec facilisis aliquet, magna urna vehicula magna, nec placerat nulla risus sed lorem. In hac habitasse platea dictumst. Quisque nulla elit, efficitur eget maximus viverra, viverra vel nibh. Proin gravida fringilla tincidunt. Vestibulum volutpat, leo vel commodo maximus, mi ante consequat nunc, et venenatis dui diam in augue. Phasellus tristique ex sed nibh dictum luctus. Aenean et ullamcorper orci.
-
-        In varius, ex in rhoncus aliquet, odio lorem fringilla sem, id viverra magna ligula in tellus. Aliquam erat volutpat. Duis vitae ultricies ex. Nunc vel venenatis urna. Proin augue lectus, aliquet condimentum ornare id, ornare sed ante. Sed cursus nisl ultricies quam ultrices luctus. Cras luctus enim ut metus maximus, ut faucibus ante euismod. Cras dapibus augue vitae augue sagittis cursus.
-        
-        Sed faucibus, arcu in porta dapibus, erat enim dignissim dui, sed viverra dolor nisl sed nulla. Nullam consequat quis velit eget suscipit. Curabitur at maximus dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus vel orci eu condimentum. Quisque laoreet sapien enim, vel iaculis felis tincidunt vel. Pellentesque in turpis non nulla venenatis dictum nec at metus. Vestibulum eget urna faucibus, ullamcorper augue at, imperdiet diam. Vestibulum metus diam, mollis id elit ac, dictum aliquet libero. Curabitur fringilla nisl eget ipsum feugiat, non ultrices mi sodales. Fusce condimentum volutpat nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus feugiat lorem eu justo gravida malesuada. Proin mattis nisi consequat mollis aliquet. Aenean porta justo in velit rutrum fermentum sit amet sit amet velit.</p>
+         <img src="images/Shamiee-avatar.png" alt="something went wrong! try reloading this page">
+         <span class="tooltip_text"><span>&#8593;</span><h4>Shamaathmika</h4><p>Beginner html coder and css designer. Developed the Office menu of the website.</p></span>
+        </div>
+        <caption>*Hover over the above images to see their description and role in this website.*</caption>
+        <p>The Akshayah global ICT website may not contain all the solutions and answers that you are looking for.
+          Solutions to Front-end topics such as javascript, Angular, react and all the back-end languages will not be available on our website
+          as we haven't learnt them yet. We will try our best to upload more diverse topics into the website and also update the design.
+          Most of our team members are in the intermediate level of programming and do not have much experience in it either. But we will
+          keep learning new things and help as much as possible.
+        </p>
      </div>
      <div class="Footer">
-       <h5>Copyright@Grade_9_ICT students©</h5>
+       <h5>&copy; Grade_9_ICT students</h5>
      </div>
    </div>
  </body>
