@@ -1,0 +1,269 @@
+#Current {
+  color: white;
+  background-color: #bcc6cc96;
+}
+
+.syntaxandexample {
+  background-color: #bcc6cc96;
+  color: black;
+  padding: 25px 20px 25px 20px;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dbn {
+  color: blue;
+  padding: 10px;
+}
+
+.light {
+  background-color: white;
+  padding: 10px;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+}
+
+.sidebar {
+  float: left;
+  width: 250px;
+  height: 500px;
+  background-color: white;
+  border-right: 5px solid #4b4bb1;
+  margin: -20px 0px 0px -40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 1.3rem;
+  position: fixed;
+  overflow-y: scroll;
+  padding-top: 90px;
+  padding-bottom:0;
+  top: 0;
+}
+
+.sidebar ul li {
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+  border-bottom: 2px solid black;
+  display: block;
+  transition: all 0.1s ease-in;
+}
+
+.sidebar ul li:hover {
+  background-color: #57ebff;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar:hover {
+  overflow-y: scroll;
+}
+
+.sidebar header {
+  background-color: rgba(238, 238, 22, 0.795);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.container {
+  margin: auto;
+  min-width: 500px;
+}
+
+.header {
+  padding: 2em;
+  height: auto;
+  background-color: #141414;
+  color: white;
+  font-size: 150%;
+  text-align: center;
+  font-weight: lighter;
+  font-family: galliard_btroman;
+  letter-spacing: 1.5px;
+  overflow: hidden;
+  background-image: url(images/SKY-BG.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header h2 {
+  padding: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  color: #57ebff;
+  width: 70%;
+  background: linear-gradient(
+    to top left,
+    rgba(255, 255, 255, 0.2),
+    rgba(52, 88, 121, 0.4),
+    rgba(139, 201, 255, 0.5)
+  );
+  backdrop-filter: blur(1.5px);
+  border-radius: 50px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.header p {
+  padding: 2%;
+  margin: auto;
+  display: block;
+  width: 50%;
+  font-size: 120%;
+}
+
+.header ul {
+  list-style-type: none;
+}
+
+.header ul li {
+  display: inline-block;
+  padding: 5px 20px;
+  border: 2px solid #fff;
+  margin: 10px;
+}
+.header img {
+  top: 0;
+  width: 10%;
+  padding: 0.5em;
+  display: block;
+  border-radius: 50% 50% 15% 15%;
+  float: left;
+}
+
+/* Start of navigation css */
+.Nav {
+  padding: 15px;
+  text-align: center;
+  height: min-content;
+  font-size: 160%;
+  background-color: #141414;
+  position: sticky;
+  width: auto;
+  top: 0;
+  border-top: 3px solid #4b4bb1;
+  border-bottom: 4px solid #4b4bb1;
+  box-shadow: 5px 3px 10px;
+  height: 2em;
+  z-index: 100;
+  vertical-align: top;
+}
+
+.Nav a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #abebff;
+  width: 10%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border-right: 1px solid white;
+  border-collapse: collapse;
+}
+
+.Nav a:last-child {
+  content: " ";
+  border: none;
+}
+
+.Nav a::after {
+  content: " ";
+  height: 4px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: -0.78em;
+  left: 0px;
+  transform-origin: center;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+}
+
+.Nav a:hover::after {
+  width: 100%;
+  transform: scaleX(1);
+}
+/* end of navigation css */
+
+/* css for main */
+.Main {
+  padding: 5em 7em;
+  margin: 0px;
+  border-radius: 0px;
+  height: inherit;
+  width: 890px;
+  overflow: hidden;
+  line-height: 35px;
+  float: right;
+  position: relative;
+}
+
+/* General css for main */
+.Main h1 {
+  font-size: 300%;
+  font-family: sans-serif;
+  color: #0e0e5e;
+  display: block;
+  text-decoration: underline;
+}
+
+.Main h2 {
+  font-size: 250%;
+  color: #0e0e5e;
+  font-family: sans-serif;
+}
+
+.Main h3 {
+  font-size: 200%;
+  color: #0a0a86;
+  font-family: sans-serif;
+}
+
+.Main h4 {
+  font-size: 150%;
+  font-family: sans-serif;
+  color: #0a0a86;
+}
+
+.Main p {
+  font-weight: normal;
+  font-family: sans-serif;
+  text-align: justify;
+  font-size: 1.1rem;
+}
+
+.Main hr {
+  width: 100%;
+  background-color: #0e0e5e;
+  height: 2px;
+}
+
+.Main li {
+  font-size: 1.3rem;
+  line-height: 25px;
+}
+
+/* end of css for main */
+
+.Footer {
+  padding: 3%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  height: auto;
+  background-color: #141414;
+  color: white;
+  font-size: 150%;
+  text-align: center;
+  font-weight: lighter;
+  font-family: galliard_btroman;
+  letter-spacing: 1.5px;
+  clear: both;
+}
+
+/* This CSS stylesheet is under copyright of Grade-9 students. Unpublished © 28/3/21 Grade-9 ICT. */
