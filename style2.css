@@ -28,19 +28,16 @@ body {
 
 .sidebar {
   float: left;
-  width: 250px;
-  height: 500px;
+  width: auto;
+  height: 100%;
   background-color: white;
   border-right: 5px solid #4b4bb1;
   margin: -20px 0px 0px -40px;
   line-height: 40px;
   text-align: center;
   font-size: 1.3rem;
-  position: fixed;
-  overflow-y: scroll;
-  padding-top: 90px;
-  padding-bottom:0;
-  top: 0;
+  position: sticky;
+  top: 100;
 }
 
 .sidebar ul li {
@@ -59,10 +56,6 @@ body {
 .sidebar a {
   text-decoration: none;
   color: black;
-}
-
-.sidebar:hover {
-  overflow-y: scroll;
 }
 
 .sidebar header {
@@ -104,7 +97,7 @@ body {
     to top left,
     rgba(255, 255, 255, 0.2),
     rgba(52, 88, 121, 0.4),
-    rgba(139, 201, 255, 0.5)
+    rgba(139, 201, 255, 0.6)
   );
   backdrop-filter: blur(1.5px);
   border-radius: 50px;
@@ -151,9 +144,8 @@ body {
   border-top: 3px solid #4b4bb1;
   border-bottom: 4px solid #4b4bb1;
   box-shadow: 5px 3px 10px;
-  height: 2em;
-  z-index: 100;
-  vertical-align: top;
+  height: min-content;
+  z-index: 2;
 }
 
 .Nav a {
