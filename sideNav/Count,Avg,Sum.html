@@ -6,7 +6,7 @@
  <body>
    <div class="container">
      <div class="Header">
-       <img src="images\AGS.jpg" alt="something went wrong!">
+       <img src="..\images\AGS.jpg" alt="something went wrong!">
        <h2>Akshayah Global School ICT Group Project</h2>
        <p>A group project created by Grade 9 students:</p>
        <ul>
@@ -17,73 +17,131 @@
        </ul>
      </div>
      <div class="Nav">
-       <a href="index.html">Home</a>
-       <a href="HTML.html">HTML</a>
-       <a href="CSS.html">CSS</a>
-       <a href="DBMS.html" style="color:white">DBMS</a>
-       <a href="Office.html">Office</a>
-       <a href="Projects.html">Projects</a>
-       <a href="About.html">About</a>
-       <a href="Contact.html">Contact</a>
+       <a href="..\index.html">Home</a>
+       <a href="..\HTML.html">HTML</a>
+       <a href="..\CSS.html">CSS</a>
+       <a href="..\DBMS.html" style="color:white">DBMS</a>
+       <a href="..\Office.html">Office</a>
+       <a href="..\Projects.html">Projects</a>
+       <a href="..\About.html">About</a>
+       <a href="..\Contact.html">Contact</a>
      </div>
       <div class="Main">
-        <h2>Where clause</h2>
+        <h2>
+          Count(), Avg() and Sum() functions
+        </h2>
         <p>
-          The Where clause is used to filter the data in SQL by giving conditions. It is also used in statements 
-          such as Update and Delete to specify the data.
+          The Count() function is used to find the number of rows in a table 
+        </p>
+        <p>
+          The Avg() function is used to find the average of the specified column
+        </p>
+        <p>
+          The Sum() function is used to find the totalsum of the specified column
         </p>
         <h4>
-          Syntax
+          Syntax for Count() function
         </h4>
         <div class="syntaxandexample">
           <div class="light">
-           <span class="dbn">Select</span> column1, column2 <br> 
-           <span class="dbn">From</span> tablename <br>
-           <span class="dbn">Where</span> condition ;
+            <span class="dbn">Select Count</span>(columnname) <br>
+            <span class="dbn">From</span>tablename <br>
+            <span class="dbn">Where</span>condition ;
           </div>
         </div>
+        <p>
+          Null values will be ignored
+        </p>
         <br>
         <br>
         <hr>
         <br>
         <h4>
-          Example for Numeric fields
+          Example for Count() function
         </h4>
         <p>
-          The following statement will select all the footballers aged 30 from the table "footballers"
+          The following statement will find the total number of footballers
         </p>
         <div class="syntaxandexample">
           <div class="light">
-           <span class="dbn">Select</span> Age <br> 
-           <span class="dbn">From</span> footballers <br>
-           <span class="dbn">Where</span> Age= 30 ;
+            <span class="dbn">Select Count</span>(Ranking) <br>
+            <span class="dbn">From</span>footballers ;
           </div>
         </div>
-        <br>
         <p>
-          Numeric fields should not be given in quotes. But all other fields should be given in quotes
+          Null values will be ignored
         </p>
+        <br>
         <br>
         <hr>
         <br>
         <h4>
-          Example for Text fields
+          Syntax for Avg() function
+        </h4>
+        <div class="syntaxandexample">
+          <div class="light">
+            <span class="dbn">Select</span>Avg(columnname) <br>
+            <span class="dbn">From</span>tablename <br>
+            <span class="dbn">Where</span>condition ;
+          </div>
+        </div>
+        <p>
+          Null values will be ignored
+        </p>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <h4>
+          Example for Avg() function
         </h4>
         <p>
-          The following statement will select all the footballers whose country is Argentina from the table "footballers"
+          The following statement will find the average age of all footballers
         </p>
         <div class="syntaxandexample">
           <div class="light">
-           <span class="dbn">Select</span> Country <br> 
-           <span class="dbn">From</span> footballers <br>
-           <span class="dbn">Where</span> Country= "Argentina" ;
+            <span class="dbn">Select</span>Avg(Age) <br>
+            <span class="dbn">From</span>footballers ;
           </div>
         </div>
-        <br>
         <p>
-          symbols like <br>
-          =, <, >, <=, >=, <>, Between, Like, In <br>    
-          can also be used with the "Where" clause to specify the data or add filter
+          Null values will be ignored
+        </p>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <h4>
+          Syntax for Sum() function
+        </h4>
+        <div class="syntaxandexample">
+          <div class="light">
+            <span class="dbn">Select</span>Sum(columnname) <br>
+            <span class="dbn">From</span>tablename <br>
+            <span class="dbn">Where</span>condition ;
+          </div>
+        </div>
+        <p>
+          Null values will be ignored
+        </p>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <h4>
+          Example for Sum() function
+        </h4>
+        <p>
+          The following statement will find the totalsum of the age of all footballers
+        </p>
+        <div class="syntaxandexample">
+          <div class="light">
+            <span class="dbn">Select</span>Avg(Age) <br>
+            <span class="dbn">From</span>footballers ;
+          </div>
+        </div>
+        <p>
+          Null values will be ignored
         </p>
       </div>
       <div class="Menu">
@@ -124,7 +182,7 @@
               <li>
                 <a href="Select.html">Select</a>
               </li>
-              <li id="Current">
+              <li>
                 <a href="Where.html">Where</a>
               </li>
               <li>
@@ -142,7 +200,7 @@
               <li>
                 <a href="Min and Max.html">Min and Max</a>
               </li>
-              <li>
+              <li id="Current">
                 <a href="Count,Avg,Sum.html">Count, Avg, Sum</a>
               </li>
           </ul>

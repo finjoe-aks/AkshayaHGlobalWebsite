@@ -6,7 +6,7 @@
  <body>
    <div class="container">
      <div class="Header">
-       <img src="images\AGS.jpg" alt="something went wrong!">
+       <img src="..\images\AGS.jpg" alt="something went wrong!">
        <h2>Akshayah Global School ICT Group Project</h2>
        <p>A group project created by Grade 9 students:</p>
        <ul>
@@ -17,28 +17,43 @@
        </ul>
      </div>
      <div class="Nav">
-       <a href="index.html">Home</a>
-       <a href="HTML.html">HTML</a>
-       <a href="CSS.html">CSS</a>
-       <a href="DBMS.html" style="color:white">DBMS</a>
-       <a href="Office.html">Office</a>
-       <a href="Projects.html">Projects</a>
-       <a href="About.html">About</a>
-       <a href="Contact.html">Contact</a>
+       <a href="..\index.html">Home</a>
+       <a href="..\HTML.html">HTML</a>
+       <a href="..\CSS.html">CSS</a>
+       <a href="..\DBMS.html" style="color:white">DBMS</a>
+       <a href="..\Office.html">Office</a>
+       <a href="..\Projects.html">Projects</a>
+       <a href="..\About.html">About</a>
+       <a href="..\Contact.html">Contact</a>
      </div>
       <div class="Main">
         <h2>
-          Drop Database statement
+           Insert Into statement
         </h2>
         <p>
-          The Drop Database statement is used to delete or drop a database in SQL.
+          The Insert Into statement is used to insert data into tables
         </p>
         <h4>
-          Syntax
+          Syntax for inserting data into specified columns
         </h4>
         <div class="syntaxandexample">
           <div class="light">
-           <span class="dbn">Drop Database</span>databasename ;
+            <span class="dbn">Insert Into</span> tablename (column1, column2, column3, ...) <br>
+            <span class="dbn">Values</span> (value1, value2, value3, ...)
+          </div>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <h4>Example for inserting data into specified columns</h4>
+        <p>
+          The following statement will insert data into the columns "Age" and "Club" in the table "footballers"
+        </p>
+        <div class="syntaxandexample">
+          <div class="light">
+            <span class="dbn">Insert Into</span> footballers (Age, Club,) <br>
+            <span class="dbn">Values</span> (33, "FC Barcelona")
           </div>
         </div>
         <br>
@@ -46,15 +61,36 @@
         <hr>
         <br>
         <h4>
-          Example
+          Syntax for inserting data into unspecified columns
         </h4>
         <p>
-          The following statement will Drop a database called "footballers".
+          If you are adding values for all the columns of the table, you do not need to specify the column 
+          names in the SQL query. However, make sure the order of the values is in the same order as the columns in the 
+          table.
         </p>
-        <br>
         <div class="syntaxandexample">
           <div class="light">
-            <span class="dbn">Drop Database</span>footballers ;
+            <span class="dbn">Insert Into</span> tablename <br>
+            <span class="dbn">Values</span> (value1, value2, value3, ...)
+          </div>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <h4>Example for inserting data into unspecified columns</h4>
+        <p>
+          The following statement will insert the values "Lionel Messi" and "33" into the table "footballers"
+        </p>
+        <p>
+          If you are adding values for all the columns of the table, you do not need to specify the column 
+          names in the SQL query. However, make sure the order of the values is in the same order as the columns in the 
+          table.
+        </p>
+        <div class="syntaxandexample">
+          <div class="light">
+            <span class="dbn">Insert Into</span> footballers (Age, Club,) <br>
+            <span class="dbn">Values</span> (33, "Lionel Messi")
           </div>
         </div>
       </div>
@@ -84,7 +120,7 @@
               <li>
                 <a href="Create Database.html">Create Database</a>
               </li>
-              <li id="Current">
+              <li>
                 <a href="Drop Database.html">Drop Database</a>
               </li>
               <li>
@@ -102,7 +138,7 @@
               <li>
                 <a href="And,Or,Not.html">And, Or, Not</a>
               </li>
-              <li>
+              <li id="Current">
                 <a href="Insert Into.html">Insert Into</a>
               </li>
               <li>

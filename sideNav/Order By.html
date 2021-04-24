@@ -6,7 +6,7 @@
  <body>
    <div class="container">
      <div class="Header">
-       <img src="images\AGS.jpg" alt="something went wrong!">
+       <img src="..\images\AGS.jpg" alt="something went wrong!">
        <h2>Akshayah Global School ICT Group Project</h2>
        <p>A group project created by Grade 9 students:</p>
        <ul>
@@ -17,28 +17,34 @@
        </ul>
      </div>
      <div class="Nav">
-       <a href="index.html">Home</a>
-       <a href="HTML.html">HTML</a>
-       <a href="CSS.html">CSS</a>
-       <a href="DBMS.html" style="color:white">DBMS</a>
-       <a href="Office.html">Office</a>
-       <a href="Projects.html">Projects</a>
-       <a href="About.html">About</a>
-       <a href="Contact.html">Contact</a>
+       <a href="..\index.html">Home</a>
+       <a href="..\HTML.html">HTML</a>
+       <a href="..\CSS.html">CSS</a>
+       <a href="..\DBMS.html" style="color:white">DBMS</a>
+       <a href="..\Office.html">Office</a>
+       <a href="..\Projects.html">Projects</a>
+       <a href="..\About.html">About</a>
+       <a href="..\Contact.html">Contact</a>
      </div>
       <div class="Main">
         <h2>
-          Delete statement
+          Order By keyword
         </h2>
         <p>
-          The Delete statement is used to delete data in a table
+          The Order By keyword is used to order the specified columns in ascending or descending order 
+        </p>
+        <p>
+          You don't need to specify the order for setting the columns in ascending order, because it's set by default, but
+          you should specify for setting the columns in descending order.
         </p>
         <h4>
-          Syntax for deleting all the data from in a table
+          Syntax for Ascending order
         </h4>
         <div class="syntaxandexample">
           <div class="light">
-            <span class="dbn">Delete From</span>tablename ;
+            <span class="dbn">Select</span> column1, column2, ... <br>
+            <span class="dbn">From</span> tablename <br>
+            <span class="dbn">Order By</span> column1, column2, ... ;
           </div>
         </div>
         <br>
@@ -46,14 +52,15 @@
         <hr>
         <br>
         <h4>
-          Example for deleting all the data in a table
+          Example for Ascending order
         </h4>
         <p>
-          The following statement will delete all the data in the table "footballers"
+          The following statement will order the footballers in ascending order of the Age column in the table "footballers"
         </p>
         <div class="syntaxandexample">
           <div class="light">
-            <span class="dbn">Delete From</span>footballers;
+            <span class="dbn">Select</span> * <span class="dbn">From</span> footballers <br>
+            <span class="dbn">Order By</span> Age ;
           </div>
         </div>
         <br>
@@ -61,15 +68,13 @@
         <hr>
         <br>
         <h4>
-          Syntax for deleting specified data in a table
+          Syntax for Descending order
         </h4>
-        <p>
-          The "Where" statement is used to specify what data to delete 
-        </p>
         <div class="syntaxandexample">
           <div class="light">
-            <span class="dbn">Delete From</span>tablename <br>
-            <span class="dbn">Where</span> condition;
+            <span class="dbn">Select</span> column1, column2, ... <br>
+            <span class="dbn">From</span> tablename <br>
+            <span class="dbn">Order By</span> column1, column2, ... <span class="dbn">Desc</span>;
           </div>
         </div>
         <br>
@@ -77,20 +82,25 @@
         <hr>
         <br>
         <h4>
-          Example for deleting specified data in a table
+          Example for Descending order
         </h4>
         <p>
-          The following statement will delete all the footballers's data in the table "footballers" whose age is 33
-        </p>
-        <p>
-          The "Where" statement is used to specify what data to delete
+          The following statement will order the footballers in Descending order of the Age column in the table 
+          "footballers"
         </p>
         <div class="syntaxandexample">
           <div class="light">
-            <span class="dbn">Delete From</span>footballers <br>
-            <span class="dbn">Where</span> Age= "33" ;
+            <span class="dbn">Select</span> * <span class="dbn">From</span> footballers <br>
+            <span class="dbn">Order By</span>Age<span class="dbn">Desc</span>;
           </div>
         </div>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <p>
+          You can also order by several columns, you just need to specify more columns names after the "Order By" key word
+        </p>
       </div>
       <div class="Menu">
           <ul>
@@ -139,10 +149,10 @@
               <li>
                 <a href="Insert Into.html">Insert Into</a>
               </li>
-              <li>
+              <li id="Current">
                 <a href="Order By.html">Order By</a>
               </li>
-              <li id="Current">
+              <li>
                 <a href="Delete.html">Delete</a>
               </li>
               <li>
